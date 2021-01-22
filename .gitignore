@@ -3,7 +3,8 @@ crl
 csr
 newcerts
 private
-crlnumber
-index.txt
+crlnumber*
+index.txt*
 openssl.cnf
-serial
+serial*
+intermediate
