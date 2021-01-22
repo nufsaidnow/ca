@@ -1,0 +1,9 @@
+certs
+crl
+csr
+newcerts
+private
+crlnumber
+index.txt
+openssl.cnf
+serial
