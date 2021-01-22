@@ -6,7 +6,7 @@ rm -rf csr
 rm -rf newcerts
 rm -rf private
 rm -rf intermediate
-rm crlnumber
-rm index.txt
+rm crlnumber*
+rm index.txt*
+rm serial*
 rm openssl.cnf
-rm serial
