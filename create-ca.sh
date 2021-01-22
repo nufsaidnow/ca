@@ -132,7 +132,7 @@ openssl genrsa -aes256 \
     -out private/ca.key.pem 4096
 chmod 400 private/ca.key.pem
 
-openssl req -config openssl.cnf "/CN=$1/O=$2/ST=$3/C=$4" \
+openssl req -config openssl.cnf -subj "/CN=$1/O=$2/ST=$3/C=$4" \
     -key private/ca.key.pem \
     -new -x509 -days 7300 -sha256 -extensions v3_ca \
     -out certs/ca.cert.pem
